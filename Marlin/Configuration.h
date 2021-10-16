@@ -2740,6 +2740,9 @@
 #define TFT_COLOR_UI
 //#define TFT_LVGL_UI
 
+#define COLOR_BACKGROUND    0x0000  // #000000
+#define COLOR_SELECTION_BG  0x7BEF  // #808080
+
 #if ENABLED(TFT_LVGL_UI)
   //#define MKS_WIFI_MODULE  // MKS WiFi module
 #endif
